@@ -1,0 +1,165 @@
+body
+{
+    
+    background-image:;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li .nav {
+    float: left;
+}
+
+li .nav, a, .dropbtn {
+    display: inline-block;
+    color: #999999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .nav, a.static {
+
+    color: #999999;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration:none;
+    font-size: 24px;
+}
+li .nav, a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+li.nav, .dropdown {
+    display: inline-block;
+    float: left;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+li a, .number {
+    float: none;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+h1{ text-align: center;
+    letter-spacing: 1px;
+    color: #999999;
+    padding: 12px 16px;
+}
+
+h2{ text-align: left;
+    color: #999999;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 12px 16px;
+}
+h4{ text-align: left;
+    color: #999999;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 12px 16px;
+}
+
+h5{ text-align: center;
+    color: #999999;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 12px 16px;
+}
+
+p { text-align: justify;
+    font-weight: normal;
+    font-style: normal; 
+    padding: 12px 16px;
+     
+    
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    display: absolute;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    padding-bottom: 50px;
+
+    
+}
+
+.column img {
+    width: 70%;
+    
+    }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ img {
+    position: relative;
+    margin: auto;
+    display: block;
+    }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+.body-margin {
+    margin-left: 12%;
+    margin-right: 12%;
+    font-family: ;
+    letter-spacing: 0.5pt ;
+    
+    }
+.centered {
+    margin: auto;
+    display: block;
+    }
